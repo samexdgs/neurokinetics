@@ -1,0 +1,54 @@
+.wrap { display:flex; flex-direction:column; gap:10px; }
+.videoWrap {
+  position:relative; background:#0f172a; border-radius:12px;
+  overflow:hidden; aspect-ratio:4/3; max-height:320px;
+}
+.video { width:100%; height:100%; object-fit:cover; transform:scaleX(-1); display:block; }
+.canvas {
+  position:absolute; top:0; left:0; width:100%; height:100%;
+  transform:scaleX(-1); pointer-events:none;
+}
+.overlay {
+  position:absolute; inset:0; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:12px;
+  background:rgba(15,23,42,.8); color:#e2e8f0; font-size:.88rem;
+}
+.spin {
+  width:28px; height:28px; border:2px solid rgba(255,255,255,.2);
+  border-top-color:white; border-radius:50%;
+  animation:spin .8s linear infinite;
+}
+@keyframes spin { to { transform:rotate(360deg); } }
+.bar { display:flex; align-items:center; gap:8px; font-size:.84rem; color:var(--gray); }
+.dotG,.dotB,.dotN { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+.dotG { background:var(--green); animation:pulse 1.5s ease-in-out infinite; }
+.dotB { background:var(--blue); }
+.dotN { background:#94a3b8; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+.msg { flex:1; }
+.fc { font-size:.78rem; color:#94a3b8; }
+.grid { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; }
+.cell {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:8px; padding:8px; text-align:center;
+}
+.cellL { display:block; font-size:.7rem; text-transform:uppercase; letter-spacing:.05em; color:var(--gray); margin-bottom:2px; }
+.cellV { display:block; font-size:1.2rem; font-weight:600; color:#0f172a; }
+.setup {
+  background:var(--blue-light); border:1px solid var(--blue-border);
+  border-radius:8px; padding:.75rem 1rem; font-size:.83rem; color:#1e40af; line-height:1.6;
+}
+.err {
+  background:var(--red-light); border:1px solid var(--red-border);
+  border-radius:8px; padding:.65rem .9rem; font-size:.83rem; color:var(--red);
+}
+.btns { display:flex; gap:8px; }
+.btnStart, .btnStop {
+  flex:1; padding:.65rem; border:none; border-radius:8px;
+  font-size:.9rem; font-weight:500; transition:background .15s;
+}
+.btnStart { background:var(--blue); color:white; }
+.btnStart:hover:not(:disabled) { background:#1d4ed8; }
+.btnStart:disabled { background:#94a3b8; cursor:not-allowed; }
+.btnStop { background:var(--red); color:white; }
+.btnStop:hover { background:#b91c1c; }

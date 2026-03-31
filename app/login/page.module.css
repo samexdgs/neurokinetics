@@ -1,0 +1,19 @@
+.page { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:1.5rem; }
+.card { background:white; border:1px solid var(--border); border-radius:var(--radius-lg); padding:2rem; width:100%; max-width:420px; }
+.top { text-align:center; margin-bottom:1.5rem; }
+.icon { font-size:2rem; display:block; margin-bottom:.5rem; }
+.title { font-size:1.5rem; font-weight:600; letter-spacing:-.02em; }
+.sub { font-size:.82rem; color:var(--gray); margin-top:.3rem; line-height:1.5; }
+.tabs { display:flex; border:1px solid var(--border); border-radius:8px; overflow:hidden; margin-bottom:1.5rem; }
+.tab, .tabOn { flex:1; padding:.55rem; border:none; font-size:.88rem; font-weight:500; cursor:pointer; background:transparent; }
+.tabOn { background:var(--blue); color:white; }
+.tab { color:var(--gray); }
+.form { display:flex; flex-direction:column; gap:.9rem; }
+.row { display:flex; gap:.75rem; }
+.label { display:flex; flex-direction:column; gap:.3rem; font-size:.84rem; font-weight:500; color:#374151; }
+.input { padding:.55rem .75rem; border:1px solid var(--border); border-radius:8px; font-size:.9rem; outline:none; transition:border-color .15s; }
+.input:focus { border-color:var(--blue); }
+.err { font-size:.83rem; color:var(--red); background:var(--red-light); border:1px solid var(--red-border); border-radius:6px; padding:.5rem .75rem; }
+.btn { background:var(--blue); color:white; border:none; border-radius:8px; padding:.65rem; font-size:.92rem; font-weight:500; margin-top:.25rem; }
+.btn:hover { background:#1d4ed8; }
+.note { font-size:.74rem; color:#94a3b8; margin-top:1.25rem; line-height:1.6; border-top:1px solid var(--border); padding-top:.9rem; }
