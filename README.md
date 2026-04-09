@@ -137,7 +137,7 @@ Lin et al. (2021). Automated FMA-UE scoring from pose keypoints. ICORR. The meth
 
 ## Academic citation
 
-Samuel Oluwakoya (2026). NeuroKinetics: Camera-Assisted Upper Limb Motor Recovery Monitoring for Home Stroke Rehabilitation Using MediaPipe and Longitudinal Kinematic Classification. GitHub. https://github.com/samueloluwakoya/neurokinetics
+Samuel Oluwakoya (2026). NeuroKinetics: Camera-Assisted Upper Limb Motor Recovery Monitoring for Home Stroke Rehabilitation Using MediaPipe and Longitudinal Kinematic Classification. GitHub.(https://github.com/samexdgs/neurokinetics)
 
 ---
 
