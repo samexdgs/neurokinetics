@@ -110,30 +110,6 @@ neurokinetics/
 ├── next.config.js
 ├── package.json
 └── tsconfig.json
-```
-
----
-
-## Running locally
-
-You need Node.js 18 or higher.
-
-```bash
-git clone https://github.com/samueloluwakoya/neurokinetics.git
-cd neurokinetics
-npm install
-npm run dev
-```
-
-Open http://localhost:3000. The first time the session page loads, MediaPipe downloads an 8MB model from Google's CDN. It is cached after the first download.
-
----
-
-## Deploying to Vercel
-
-Push to GitHub. Go to vercel.com, import the repository, and deploy. Vercel detects Next.js automatically. No configuration needed. Camera access works because Vercel deploys over HTTPS.
-
----
 
 ## Research papers that informed this build
 
@@ -171,4 +147,4 @@ NeuroKinetics is a research tool. FMA-UE proxy scores are estimated from camera-
 
 ---
 
-Samuel Oluwakoya — computer science graduate, foot drop patient, AI health researcher.
+Samuel Oluwakoya — Computer science graduate, foot drop patient, AI health researcher.
