@@ -1,5 +1,12 @@
 https://neurokinetics.vercel.app/login
+
 # NeuroKinetics
+
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--2126--0254-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0008-2126-0254)
+
 
 Camera-based upper limb motor recovery monitor for stroke survivors. The patient opens the app, selects an exercise, and watches a demonstration video. Then they turn on the camera and perform the movement. MediaPipe tracks 21 hand landmarks in real time, computes kinematic features from every frame, and produces a session score. Over time those sessions build a recovery trajectory.
 
