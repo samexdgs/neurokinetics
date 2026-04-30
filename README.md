@@ -149,3 +149,9 @@ NeuroKinetics is a research tool. FMA-UE proxy scores are estimated from camera-
 ---
 
 Samuel Oluwakoya — Computer science graduate, foot drop patient, AI health researcher.
+
+- Email: [soluwakoyat@gmail.com](mailto:soluwakoyat@gmail.com),
+- ORCID: [0009-0008-2126-0254](https://orcid.org/0009-0008-2126-0254)
+- GitHub: [github.com/samexdgs](https://github.com/samexdgs)
+- LinkedIn: [linkedin.com/in/samueloluwakoya](https://linkedin.com/in/samueloluwakoya)
+- Portfolio: [samueloluwakoya.netlify.app](https://samueloluwakoya.netlify.app)
